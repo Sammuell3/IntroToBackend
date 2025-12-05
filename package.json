@@ -1,0 +1,28 @@
+{
+  "name": "introtobackend",
+  "version": "1.0.0",
+  "description": "Learn backend: a tuturial for into to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sammuell3/IntroToBackend.git"
+  },
+  "author": "Sammuell3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sammuell3/IntroToBackend/issues"
+  },
+  "homepage": "https://github.com/Sammuell3/IntroToBackend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
